@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+ <meta charset="UTF-8" />
+ <title>Varijable</title>
+</head>
+<body>
+ <script type="text/javascript">
+
+let unos1 =prompt("Unesi prvi broj");
+let unos2 =prompt("Unesi prvi broj");
+
+function funkcija (unos1,unos2){
+
+if(unos2<unos1){
+var temp = unos2;
+unos2=unos1;
+unos1=temp;
+}
+
+console.log(Math.floor(Math.random()*(unos2-unos1+1)+unos1));
+}
+funkcija(unos1,unos2);
+
+ </script>
+</body>
+</html>
